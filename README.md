@@ -1,6 +1,6 @@
 # TROPESS Tutorials & Notebooks
 
-This repo contains a combination of snippet-based tutorials referencing open-source utilities as well as full functioning Jupyter notebooks. 
+This repo intends to provide a combination of snippet-based tutorials referencing open-source utilities as well as full functioning Jupyter notebooks. 
 
 Tutorials are a work in progress, and will range from any of the following features/capabilities:
 1. Data search/discovery
