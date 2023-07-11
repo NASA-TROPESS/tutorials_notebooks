@@ -23,11 +23,11 @@ In the following tutorial example, we demonstrate access and file extraction of 
      <br>`podaac-data-downloader -c TRPSYL2COCRS1FS -d myData -p GES_DISC -sd 2023-06-01T00:00:00Z -ed 2023-07-01T00:00:00Z`
 
 **Explanation of arguments:**
--c Collection name of the queried dataset, specified by the shortname managed by the DAAC.
--d Directory name of the desired location of the data, starting from the current directory of execution.
--p Provider name indicated by the name of the DAAC
--sd Start date/time, in ISO-8601 format
--ed End date/time, in ISO-8601 format
+<br>-c Collection name of the queried dataset, specified by the shortname managed by the DAAC.
+<br>-d Directory name of the desired location of the data, starting from the current directory of execution.
+<br>-p Provider name indicated by the name of the DAAC
+<br>-sd Start date/time, in ISO-8601 format
+<br>-ed End date/time, in ISO-8601 format
 
 For a more complete explanation of available arguments, you may type the following at your commandline: 
   <br>`podaac-data-downloader --help`
