@@ -20,7 +20,7 @@ In the following tutorial example, we demonstrate access and file extraction of 
   5. Install **podaac-data-subscriber[downloader]** by executing the following 'pip' command from your terminal/commandline:
      <br>`pip install podaac-data-subscriber`
   7. Once installed, run the following command from your commandline:
-     <br>`podaac-data-downloader -c TRPSYL2COCRS1FS -d myData -p GES_DISC -sd 2023-06-01T00:00:00Z -ed 2023-07-01T00:00:00Z`
+     <br>`podaac-data-downloader -c TRPSYL2COCRS1FS -d myData -p GES_DISC -sd 2023-06-01T00:00:00Z -ed 2023-06-28T00:00:00Z`
 
 **Explanation of arguments:**
 <br>-c Collection name of the queried dataset, specified by the shortname managed by the DAAC.
@@ -33,5 +33,5 @@ For a more complete explanation of available arguments, you may type the followi
   <br>`podaac-data-downloader --help`
 
 **Expected result:**
-A list of 30 files in your specified directory, such as: 
+A list of 27 files in your specified directory, such as: 
 <br>TROPESS_CrIS-JPSS1_L2_Summary_CO_20230601_MUSES_R1p20_FS_F0p6.nc, TROPESS_CrIS-JPSS1_L2_Summary_CO_20230602_MUSES_R1p20_FS_F0p6.nc, etc...
