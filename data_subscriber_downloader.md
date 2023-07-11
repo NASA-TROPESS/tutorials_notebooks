@@ -12,4 +12,9 @@ You may also click the following links for more detailed documentation regarding
 
 In the following tutorial example, we demonstrate access and file extraction of the [**TROPESS CrIS-JPSS1 L2 Carbon Monoxide for Forward Stream, Summary Product V1**](https://disc.gsfc.nasa.gov/datasets/TRPSYL2COCRS1FS_1/summary) dataset (DOI: [10.5067/JL1HT3NGEAW3](https://doi.org/10.5067/JL1HT3NGEAW3)). 
 
+Below are the steps:
+  1. Create an Earthdata Login Account (clear here for details)
+  2. Approve access to the NASA GES DISC Archive in your Earthdata Login Profile ([click here for details](https://disc.gsfc.nasa.gov/earthdata-login)
+  3. Create/modify a .netrc file in your home directory containing your Earthdata Login credentials
 
+  4.   
