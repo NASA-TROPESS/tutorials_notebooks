@@ -16,10 +16,13 @@ In the following tutorial example, we demonstrate access and file extraction of 
   1. Create an Earthdata Login Account ([clear here for details](https://urs.earthdata.nasa.gov/users/new))
   2. Approve access to the NASA GES DISC Archive in your Earthdata Login Profile ([click here for details](https://disc.gsfc.nasa.gov/earthdata-login))
   3. Create/modify a .netrc file in your home directory containing your Earthdata Login credentials as shown below:
+     
        machine urs.earthdata.nasa.gov login <your username> password <your password>
-  4. Install **podaac-data-subscriber[downloader]** by executing the following 'pip' command from your terminal/commandline:
+  5. Install **podaac-data-subscriber[downloader]** by executing the following 'pip' command from your terminal/commandline:
+     
        pip install podaac-data-subscriber
-  5. Once installed, run the following command from your commandline:
+  7. Once installed, run the following command from your commandline:
+     
      podaac-data-downloader -c TRPSYL2COCRS1FS -d myData -p GES_DISC -sd 2023-06-01T00:00:00Z -ed 2023-07-01T00:00:00Z
 
 **Explanation of arguments:**
@@ -30,6 +33,7 @@ In the following tutorial example, we demonstrate access and file extraction of 
 -ed End date/time, in ISO-8601 format
 
 For a more complete explanation of available arguments, you may type the following at your commandline: 
+
   podaac-data-downloader --help
 
 **Expected result:**
