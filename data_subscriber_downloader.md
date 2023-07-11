@@ -10,4 +10,6 @@ You may also click the following links for more detailed documentation regarding
   1. [Subscriber](https://github.com/podaac/data-subscriber/blob/main/Downloader.md)
   2. [Downloader](https://github.com/podaac/data-subscriber/blob/main/Downloader.md)
 
-In the following tutorial example, we demonstrate access and file extraction of the [**TROPESS CrIS-JPSS1 L2 Carbon Monoxide for Forward Stream, Summary Product V1**](https://disc.gsfc.nasa.gov/datasets/TRPSYL2COCRS1FS_1/summary) dataset. 
+In the following tutorial example, we demonstrate access and file extraction of the [**TROPESS CrIS-JPSS1 L2 Carbon Monoxide for Forward Stream, Summary Product V1**](https://disc.gsfc.nasa.gov/datasets/TRPSYL2COCRS1FS_1/summary) dataset (DOI: [10.5067/JL1HT3NGEAW3](https://doi.org/10.5067/JL1HT3NGEAW3)). 
+
+
