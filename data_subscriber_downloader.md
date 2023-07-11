@@ -15,7 +15,7 @@ In the following tutorial example, we demonstrate access and file extraction of 
 **Tutorial steps:**
   1. Create an Earthdata Login Account ([clear here for details](https://urs.earthdata.nasa.gov/users/new))
   2. Approve access to the NASA GES DISC Archive in your Earthdata Login Profile ([click here for details](https://disc.gsfc.nasa.gov/earthdata-login))
-  3. Create/modify a .netrc file in your home directory containing your Earthdata Login credentials as shown below:
+  3. Create/modify a **.netrc** file in your home directory containing your Earthdata Login credentials as shown below:
      <br>`machine urs.earthdata.nasa.gov login <your username> password <your password>`
   5. Install **podaac-data-subscriber[downloader]** by executing the following 'pip' command from your terminal/commandline:
      <br>`pip install podaac-data-subscriber`
