@@ -32,6 +32,6 @@ In the following tutorial example, we demonstrate access and file extraction of 
 For a more complete explanation of available arguments, you may type the following at your commandline: 
   podaac-data-downloader --help
 
-**Expected result: **
+**Expected result:**
 A list of 30 files in your specified directory, such as: 
 TROPESS_CrIS-JPSS1_L2_Summary_CO_20230601_MUSES_R1p20_FS_F0p6.nc, TROPESS_CrIS-JPSS1_L2_Summary_CO_20230602_MUSES_R1p20_FS_F0p6.nc, etc...
