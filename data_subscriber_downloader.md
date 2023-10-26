@@ -17,9 +17,10 @@ In the following tutorial example, we demonstrate access and file extraction of 
   2. Approve access to the NASA GES DISC Archive in your Earthdata Login Profile ([click here for details](https://disc.gsfc.nasa.gov/earthdata-login))
   3. Create/modify a **.netrc** file in your home directory containing your Earthdata Login credentials as shown below:
      <br>`machine urs.earthdata.nasa.gov login <your username> password <your password>`
+     **Note**: There's a dedicated [**TROPESS data access tutorial** (click here for more info)](https://github.com/NASA-TROPESS/tropess-tools-python/blob/main/docs/data-access.md) that explains more details on setting up your .netrc file.
   5. Install **podaac-data-subscriber[downloader]** by executing the following 'pip' command from your terminal/commandline:
      <br>`pip install podaac-data-subscriber`
-  7. Once installed, run the following command from your commandline:
+  6. Once installed, run the following command from your commandline:
      <br>`podaac-data-downloader -c TRPSYL2COCRS1FS -d myData -p GES_DISC -sd 2023-06-01T00:00:00Z -ed 2023-06-28T00:00:00Z`
 
 **Explanation of arguments:**
