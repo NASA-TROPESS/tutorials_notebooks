@@ -20,9 +20,9 @@ In the following tutorial example, we demonstrate access and file extraction of 
 
 **Note**: There's a dedicated [**TROPESS data access tutorial** (click here for more info)](https://github.com/NASA-TROPESS/tropess-tools-python/blob/main/docs/data-access.md) that explains more details on setting up your .netrc file.
 
-  5. Install **podaac-data-subscriber[downloader]** by executing the following 'pip' command from your terminal/commandline:
+  4. Install **podaac-data-subscriber[downloader]** by executing the following 'pip' command from your terminal/commandline:
      <br>`pip install podaac-data-subscriber`
-  6. Once installed, run the following command from your commandline:
+  5. Once installed, run the following command from your commandline:
      <br>`podaac-data-downloader -c TRPSYL2COCRS1FS -d myData -p GES_DISC -sd 2023-06-01T00:00:00Z -ed 2023-06-28T00:00:00Z`
 
 **Explanation of arguments:**
