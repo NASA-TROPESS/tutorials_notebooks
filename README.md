@@ -9,6 +9,8 @@ Tutorials are a work in progress, and will range from any of the following featu
 4. Direct S3 (Cloud) Access
 5. Cloud-based operation
 
+See the **[environment.yml](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/environment.yml)** file for a list of dependencies. 
+
 | Tutorial Title    | Summary        | Link        | Features/Capabilities | DOI |
 |-------------------|----------------|-------------|-----------------------|-----|
 | Bulk Data Subscriber and Download Service | Demonstrates the utilization of a commandline-based tool known as the podaac-data-subscriber[downloader] which allows users to either subscribe to datasets (for periodic, continuous updating featuring the latest available data) or one-time "bulk" downloading of one or more data files with a single request. | **[Tutorial](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/data_subscriber_downloader.md)** | Data search/access/extraction |  |
