@@ -1,0 +1,37 @@
+# run: conda env create --file environment.yml
+name: tropess-env
+channels:
+ - conda-forge
+dependencies:
+ - python>=3.8
+ - anaconda
+ - numpy
+ - earthaccess
+ - requests
+ - s3fs
+ - xarray
+ - netCDF4
+ - h5netcdf
+ - matplotlib.pyplot
+ - matplotlib.animation
+ - matplotlib.axes
+ - matplotlib.ticker
+ - cartopy
+ - cartopy.crs
+ - cartopy.feature
+ - cartopy.mpl.gridliner
+ - optparse
+ - pandas
+ - pathlib
+ - datetime
+ - contextlib
+ - imageio.v2
+ - Basemap
+ - mpl_toolkits.basemap
+ - scipy.interpolate
+ - scipy.spatial
+ - pip
+ - numpy=1.13.3  # pin version for conda
+ - pip:
+   - podaac-data-subscriber
+  # works for regular pip packages
