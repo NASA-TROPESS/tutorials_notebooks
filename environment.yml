@@ -3,7 +3,7 @@ name: tropess-env
 channels:
  - conda-forge
 dependencies:
- - python>=3.8
+ - python>=3.9
  - anaconda
  - numpy
  - earthaccess
@@ -12,26 +12,23 @@ dependencies:
  - xarray
  - netCDF4
  - h5netcdf
- - matplotlib.pyplot
- - matplotlib.animation
- - matplotlib.axes
- - matplotlib.ticker
- - cartopy
- - cartopy.crs
- - cartopy.feature
- - cartopy.mpl.gridliner
- - optparse
  - pandas
  - pathlib
- - datetime
- - contextlib
- - imageio.v2
+ - matplotlib
+ - matplotlib
+ - scipy
+ - cartopy
+ - imageio
  - Basemap
- - mpl_toolkits.basemap
- - scipy.interpolate
- - scipy.spatial
- - pip
- - numpy=1.13.3  # pin version for conda
+ - numpy
+ - pip 
  - pip:
+# works for regular pip packages
    - podaac-data-subscriber
-  # works for regular pip packages
+
+# Python standard library dependencies
+# - jupyter
+# - contextlib
+# - datetime
+# - optparse
+# - h5netcdf
