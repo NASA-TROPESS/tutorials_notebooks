@@ -1,4 +1,10 @@
-# run: conda env create --file environment.yml
+# This file contains the required dependencies to fully execute all Jupyter notebook and tutorials contained in this repository. 
+# 
+# To create this conda environment for the first time:
+#   run from your commandline:  conda env create --file environment.yml
+# ----------
+# To initialize this environment in conda:
+#   run from your commandline:  conda activate tropess-env
 name: tropess-env
 channels:
  - conda-forge
