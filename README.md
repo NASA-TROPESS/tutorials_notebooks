@@ -9,7 +9,24 @@ Tutorials are a work in progress, and will range from any of the following featu
 4. Direct S3 (Cloud) Access
 5. Cloud-based operation
 
-See the **[environment.yml](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/environment.yml)** file for a list of dependencies. 
+## Special Notes for First-Time Users:
+1. See the **[environment.yml](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/environment.yml)** file for a list of dependencies.
+2. If you not familiar with managing your own dependencies, we suggest utilizing the provided **[environment.yml](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/environment.yml)** file, as follows:
+   
+  **Step 1:** Create a new conda environment called tropess-env:
+  
+   -> Download the **[environment.yml](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/environment.yml)** file.
+   
+   -> Install Anaconda package: **[https://docs.anaconda.com/free/anaconda/install/](https://docs.anaconda.com/free/anaconda/install/)**
+   
+   -> Run the following from your commandline: **conda env create --file environment.yml**
+   
+      
+  **Step 2:** Initialize your new "tropess-env" environemnt:
+  
+   -> Run the following from your commandline: **conda activate tropess-env**
+   
+   
 
 | Tutorial Title    | Summary        | Link        | Features/Capabilities | DOI |
 |-------------------|----------------|-------------|-----------------------|-----|
