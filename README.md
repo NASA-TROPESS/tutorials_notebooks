@@ -27,7 +27,7 @@ Tutorials are a work in progress, and will range from any of the following featu
    -> Run the following from your commandline: **conda activate tropess-env**
    
    
-
+## Tutorial Summary
 | Tutorial Title    | Summary        | Link        | Features/Capabilities | DOI |
 |-------------------|----------------|-------------|-----------------------|-----|
 | Bullk Download of Megacities Data by Species | Demonstrates the utilization of the open-source earthaccess Python library which allows users to query the CMR API for data granule metadata that can then be used for targetted download and extraction via a user-defined temporal bounding box and the gas species. | **[Notebook](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/earthaccess_https_download_megacities_los_angeles.ipynb)** | Data search/access/extraction |  |
