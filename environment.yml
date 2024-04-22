@@ -1,4 +1,4 @@
-# This file contains the required dependencies to fully execute all Jupyter notebook and tutorials contained in this repository. 
+# This file contains the required dependencies to fully execute all Jupyter notebooks and tutorials contained in this repository. 
 # 
 # To create this conda environment for the first time:
 #   run from your commandline:  conda env create --file environment.yml
