@@ -21,7 +21,6 @@ dependencies:
  - pandas
  - pathlib
  - matplotlib
- - matplotlib
  - scipy
  - cartopy
  - imageio
