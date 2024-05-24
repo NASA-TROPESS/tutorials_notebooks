@@ -1,6 +1,4 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NASA-TROPESS/tutorials_notebooks/HEAD)
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/NASA-TROPESS/tutorials_notebooks/HEAD
 
 # TROPESS Tutorials & Notebooks
 
