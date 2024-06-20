@@ -3,8 +3,11 @@
 # To create this conda environment for the first time:
 #   run from your commandline:  conda env create --file environment.yml
 # ----------
-# To initialize this environment in conda:
-#   run from your commandline:  conda activate tropess-env
+# Additional execution guidance from commandline/terminal:
+# - to activate environment: conda activate tropess-env
+# - to install environment: conda env create --file environment.yml
+# - to deactivate environment: conda deactivate
+# - to update environment: conda env update --file environment.yml --name tropess-env
 name: tropess-env
 channels:
  - conda-forge
