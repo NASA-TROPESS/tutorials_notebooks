@@ -17,6 +17,7 @@ dependencies:
  - numpy
  - earthaccess
  - requests
+ - boto3
  - s3fs
  - xarray
  - netCDF4
