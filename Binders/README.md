@@ -4,9 +4,9 @@
 
 This repo a curated set of [Binder-enabled](https://mybinder.org/) notebooks for portable, on-demand demonstration of TROPESS notebooks. 
 
-Binder enables on-demand execution of a Jupyter notebook that has been pre-configured within a [**JupyterHub**](https://jupyterhub.readthedocs.io/en/latest/) server that is launchable from virtually any web browser from nearly anywhere in the world with an internet connection. These [Binder-enabled](https://mybinder.org/) notebooks are not intended for operational user, and are purely for testing and demonstration of the programmatic capabilities provided by each notebook.
+Binder enables on-demand execution of a Jupyter notebook that has been pre-configured within a [**JupyterHub**](https://jupyterhub.readthedocs.io/en/latest/) server that is launchable from virtually any web browser from nearly anywhere in the world with an internet connection. These [Binder-enabled](https://mybinder.org/) notebooks are **NOT** intended for operational use or science-based decision-making, and are purely for **testing** and **demonstration** of the capabilities provided by each notebook.
 
-These [Binder-enabled](https://mybinder.org/) notebooks are a work in progress, and will range from any of the following features/capabilities:
+These [Binder-enabled](https://mybinder.org/) notebooks are a work in progress and feature the following features/capabilities:
 1. Data search/discovery
 2. Data access/subset/extraction
 3. Data plotting/analysis/visualization
