@@ -29,6 +29,7 @@ dependencies:
  - cartopy
  - imageio
  - Basemap
+ - IPython
  - numpy
  - pip 
  - pip:
