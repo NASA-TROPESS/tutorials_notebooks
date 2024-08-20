@@ -19,7 +19,7 @@ Tutorials are a work in progress, and will range from any of the following featu
   
    -> Download the **[environment.yml](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/environment.yml)** file.
    
-   -> Install Anaconda package: **[https://docs.anaconda.com/free/anaconda/install/](https://docs.anaconda.com/free/anaconda/install/)**
+   -> Install the free "mini" conda package: **[https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)**
    
    -> Run the following from your commandline: **conda env create --file environment.yml**
    
