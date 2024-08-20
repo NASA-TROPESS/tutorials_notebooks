@@ -30,7 +30,6 @@ dependencies:
  - imageio
  - Basemap
  - IPython
- - numpy
  - pip 
  - pip:
 # works for regular pip packages
