@@ -1,6 +1,5 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NASA-TROPESS/binders/HEAD)
-
 # TROPESS Tutorials & Notebooks
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NASA-TROPESS/binders/HEAD) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/NASA-TROPESS/tutorials_notebooks/blob/main/LICENSE.txt)
 
 This repo intends to provide a combination of snippet-based tutorials referencing open-source utilities as well as full functioning Jupyter notebooks. 
 
